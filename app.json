@@ -1,0 +1,7 @@
+{
+  "name": "testing the deployment",
+  "description": "about someone",
+  "repository": "https://github.com/ab-anand/Heroku-Testing",
+  "logo": "http://xvir.github.io/img/apiai.png",
+  "keywords": ["heroku", "natural language"]
+}
