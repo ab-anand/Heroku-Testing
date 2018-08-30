@@ -1,12 +1,14 @@
 projects = [
-    'Applying machine learning algos on multiple datasets',
-    'A speech recognition based digital assistant like Cortana',
-    'Python implementation of classic arcade game Space Invasion',
-    'An easy to use web implementation of Thesaurus using Flask',
-    'A desktop software to delete thousand of files in the blink of an eye',
-    'Various scrapping scripts in Python and JS',
-    'Automation Scripts with selenium and other tools',
-    'A social media like twitter in it\'s earlier days using Flask.'
+    ('A speech recognition based digital assistant written in Python like Cortana', 'Bruno'),
+    ('Automation Scripts with selenium and other tools', 'Automation-Bots'),
+    ('Various scrapping scripts in Python and JS', 'Scrapping'),
+    ('Python implementation of classic arcade game Space Invasion', 'Spaceship'),
+    ('A desktop software to delete thousand of files in the blink of an eye', 'AutoDel'),
+    ('Pomodoro clock to increase working efficiency written in Python', 'PyPomodoro'),
+    ('An easy to use web implementation of Thesaurus using Flask', 'Vocab-Bird'),
+    ('Applying machine learning algos on multiple datasets', 'Data-Warehouse'),
+    ('A social media like twitter in it\'s earlier days using Flask', 'The-Social-Network'), 
+    ('An image search engine using OpenCv', 'Image-Search-Engine')
 ]
 
 

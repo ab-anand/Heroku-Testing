@@ -179,14 +179,32 @@
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
       <div class="my-auto">
         <h2 class="mb-5">Projects</h2>
+        <p class="pb-4 pt-0">A selected list of projects that I have contributed to or have made. Many more can be found out over at my Github profile.
+        <br/>
+        <iframe src="https://ghbtns.com/github-btn.html?user=ab-anand&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
+        <br/>
+        </p>
         <ul class="fa-ul mb-0">
-          {% for project in projects %}
+          {% for project, repo in projects %}
           <li>
-            <i class="fa-li fa fa-code text-warning"></i> {{ project }}
+          	<div class="container-fluid">
+          		<div class="row">
+          			<div class="col-8">
+          		<i class="fa-li fa fa-code text-warning"></i> {{ project }}
+          	</div>
+          	<div class="col-1">
+          		<iframe src="https://ghbtns.com/github-btn.html?user=ab-anand&repo={{ repo }}&type=star&count=true" frameborder="0" scrolling="0" width="250px" height="25px"></iframe>
+          	</div>
+          	<div class="col-1">
+          		<iframe src="https://ghbtns.com/github-btn.html?user=ab-anand&repo={{ repo }}&type=fork&count=true&v=2" frameborder="0" scrolling="0" width="200px" height="25px"></iframe>
+          	</div>
+          		</div>
+          		
+          	</div>
           </li>
+          	
           {% endfor %}
-          <span class="text-muted">..and a lot <a href="https://github.com/ab-anand" target="_blank">more</a></span>
-
+          <br/>
         </ul>
       </div>
 
