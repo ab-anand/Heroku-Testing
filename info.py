@@ -16,20 +16,21 @@ skills = [
     'Machine Learning',
     'Data mining & scrapping',
     'Computer Vision & NLP',
+    'Chatbots',
     'REST APIs design & implementation',
     'Full stack Python Development'
 ]
 
 
 tools = [
-    'tensorflow.png',
-    'mongo.png',
-    'opencv.png',
-    'flask.png',
-    'postgres.png',
-    'javascript.png',
-    'python.png',
-    'django.png',
-    'scikit.png',
-    'bootstrap.png'
+    ('tensorflow.png', 'Tensorflow'),
+    ('mongo.png', 'MongoDB'),
+    ('opencv.png', 'OpenCv'),
+    ('flask.png', 'Flask'),
+    ('postgres.png', 'PostgreSQL'),
+    ('javascript.png', 'Javascript'),
+    ('python.png', 'Python'),
+    ('django.png', 'Django'),
+    ('scikit.png', 'Scikit-Learn'),
+    ('bootstrap.png', 'Bootstrap')
 ]

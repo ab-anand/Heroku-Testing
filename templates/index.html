@@ -156,9 +156,9 @@
 
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline dev-icons">
-          {% for tool in tools %}
+          {% for tool, name in tools %}
           <li class="list-inline-item">
-            <img src="../static/img/{{ tool }}" height="60"></img>
+            <img src="../static/img/{{ tool }}" height="60" data-toggle="tooltip" data-placement="top" title="{{ name }}"></img>
           </li>
           {% endfor %}
         </ul>
