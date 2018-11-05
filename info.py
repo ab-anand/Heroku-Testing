@@ -6,7 +6,7 @@ projects = [
     ('A desktop software to delete thousand of files in the blink of an eye', 'AutoDel'),
     ('Pomodoro clock as desktop notifications written in Python', 'PyPomodoro'),
     ('An easy to use web implementation of Thesaurus using Flask', 'Vocab-Bird'),
-    ('Applying machine learning methods on datasets like Cancer, Wine, HR, etc.,', 'Data-Warehouse'), 
+    ('Google\'s Stocks price prediction using LSTM', 'Stock-Price-Prediction-with-RNN'), 
     ('A social media like twitter in it\'s earlier days using Flask', 'The-Social-Network'), 
     ('An image search engine using OpenCv', 'Image-Search-Engine')
 ]
