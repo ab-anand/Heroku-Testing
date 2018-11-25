@@ -159,7 +159,10 @@
         <ul class="list-inline dev-icons">
           {% for tool, name in tools %}
           <li class="list-inline-item">
-            <img src="../static/img/{{ tool }}" height="60" data-toggle="tooltip" data-placement="top" title="{{ name }}"></img>
+          	<div class="zoom">
+          		<img src="../static/img/{{ tool }}" height="60" data-toggle="tooltip" data-placement="top" title="{{ name }}"></img>
+          	</div>
+            
           </li>
           {% endfor %}
         </ul>
